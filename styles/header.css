@@ -1,0 +1,43 @@
+header {
+  padding-block: 32px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile {
+  display: flex;
+  gap: 32px;
+}
+
+#profile > div {
+    max-width: 384px;
+}
+
+#profile h1 {
+  font: bold 32px/1.25 "Poppins", sans-serif;
+  color: var(--text-color-primary, #313131);
+  margin-bottom: 8px;
+}
+
+#profile p {
+  font: 14px/1.70 "Poppins", sans-serif;
+}
+
+#info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 280px;
+}
+
+#info li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
