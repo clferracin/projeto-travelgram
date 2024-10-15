@@ -1,5 +1,6 @@
 header {
   padding-block: 32px;
+  font: 14px/1.70 "Poppins", sans-serif;
 }
 
 header .container {
@@ -21,10 +22,6 @@ header .container {
   font: bold 32px/1.25 "Poppins", sans-serif;
   color: var(--text-color-primary, #313131);
   margin-bottom: 8px;
-}
-
-#profile p {
-  font: 14px/1.70 "Poppins", sans-serif;
 }
 
 #info {
